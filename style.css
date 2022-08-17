@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right,#8f72c2,#5774b6);
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px grey;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+div {
+    margin: 20px;
+    border-radius: 3px;
+}
+
+.emoji {
+    width: 200px;
+    height: 50px;
+    background: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.border {
+    padding: 14px;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    text-align: center;
+}
+
+.bottomborder {
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin: 20px;
+}
+
+.price {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 600px;
+}
+
+.cat {
+    background: linear-gradient(to right,#a590d3,#938bcf);
+    width: 300px;
+    height: 500px;
+}
+
+.dog {
+    background: linear-gradient(to right,#9791d3,#8a92d0);
+    width: 300px;
+    height: 600px;
+}
+
+.fish {
+    background: linear-gradient(to right,#8892d1,#7b91cc);
+    width: 300px;
+    height: 450px;
+}
